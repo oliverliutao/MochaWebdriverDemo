@@ -26,10 +26,10 @@ process.on('unhandledRejection', () => {});
                 await page.quit();
             });
 
-            it ('find check now button', async () => {
+            it ('click check now button', async () => {
                 // "spy" on `console.log()`
                 // let spy = sinon.spy(console, 'log');
-                const result = await page.findInputAndButton();
+                const result = await page.findCheckNowButtonandClick();
                 // expect(result.inputEnabled).to.equal(true);
                 expect(result.buttonText).to.include('validatePromotionCode');
 

@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-05-22T08:01:41.265Z",
-    "end": "2021-05-22T08:01:43.991Z",
-    "duration": 2726,
+    "start": "2021-05-22T09:51:01.102Z",
+    "end": "2021-05-22T09:51:03.966Z",
+    "duration": 2864,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "5e31caac-2e8f-4a91-b8ff-5e28b1d8e947",
+      "uuid": "430de8ea-7565-441b-a5d8-cdad04296105",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,16 +27,16 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "82df4919-ac8a-4d00-bfa5-223ed763c150",
-          "title": "AVIVA GI Portal automated testing",
+          "uuid": "4a84b9ba-b434-4f77-8da8-71eecaa192d2",
+          "title": "AVIVA GI Home portal automated testing",
           "fullFile": "/Users/TAO/Desktop/FullStack/MochaWebdriverDemo/test/GIHome.test.js",
           "file": "/test/GIHome.test.js",
           "beforeHooks": [
             {
-              "title": "\"before each\" hook in \"AVIVA GI Portal automated testing\"",
-              "fullTitle": "AVIVA GI Portal automated testing \"before each\" hook in \"AVIVA GI Portal automated testing\"",
+              "title": "\"before each\" hook in \"AVIVA GI Home portal automated testing\"",
+              "fullTitle": "AVIVA GI Home portal automated testing \"before each\" hook in \"AVIVA GI Home portal automated testing\"",
               "timedOut": false,
-              "duration": 2341,
+              "duration": 2537,
               "state": null,
               "speed": null,
               "pass": false,
@@ -45,16 +45,16 @@
               "context": null,
               "code": "page = new Page();\ndriver = page.driver;\nawait page.visit('https://login.aviva.com.sg/hm/home/#/getQuote');",
               "err": {},
-              "uuid": "ff0e32c9-b831-484c-b661-66831040513c",
-              "parentUUID": "82df4919-ac8a-4d00-bfa5-223ed763c150",
+              "uuid": "92ba744a-6951-4cf8-89cc-3b5870d28ad5",
+              "parentUUID": "4a84b9ba-b434-4f77-8da8-71eecaa192d2",
               "isHook": true,
               "skipped": false
             }
           ],
           "afterHooks": [
             {
-              "title": "\"after each\" hook in \"AVIVA GI Portal automated testing\"",
-              "fullTitle": "AVIVA GI Portal automated testing \"after each\" hook in \"AVIVA GI Portal automated testing\"",
+              "title": "\"after each\" hook in \"AVIVA GI Home portal automated testing\"",
+              "fullTitle": "AVIVA GI Home portal automated testing \"after each\" hook in \"AVIVA GI Home portal automated testing\"",
               "timedOut": false,
               "duration": 52,
               "state": null,
@@ -65,40 +65,40 @@
               "context": null,
               "code": "await page.quit();",
               "err": {},
-              "uuid": "0772e21d-362b-4fb2-ab69-4549c510b3d3",
-              "parentUUID": "82df4919-ac8a-4d00-bfa5-223ed763c150",
+              "uuid": "d76bc037-ce13-458f-aaed-2253724b114f",
+              "parentUUID": "4a84b9ba-b434-4f77-8da8-71eecaa192d2",
               "isHook": true,
               "skipped": false
             }
           ],
           "tests": [
             {
-              "title": "find check now button",
-              "fullTitle": "AVIVA GI Portal automated testing find check now button",
+              "title": "click check now button",
+              "fullTitle": "AVIVA GI Home portal automated testing click check now button",
               "timedOut": false,
-              "duration": 330,
+              "duration": 269,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "// \"spy\" on `console.log()`\n// let spy = sinon.spy(console, 'log');\nconst result = await page.findInputAndButton();\n// expect(result.inputEnabled).to.equal(true);\nexpect(result.buttonText).to.include('validatePromotionCode');\n// restore the original function\n// spy.restore();",
+              "code": "// \"spy\" on `console.log()`\n// let spy = sinon.spy(console, 'log');\nconst result = await page.findCheckNowButtonandClick();\n// expect(result.inputEnabled).to.equal(true);\nexpect(result.buttonText).to.include('validatePromotionCode');\n// restore the original function\n// spy.restore();",
               "err": {},
-              "uuid": "2f9ef78f-eb46-4d7f-8537-23fe7515a0c5",
-              "parentUUID": "82df4919-ac8a-4d00-bfa5-223ed763c150",
+              "uuid": "65072a33-98ae-452d-9d25-77f6cc921506",
+              "parentUUID": "4a84b9ba-b434-4f77-8da8-71eecaa192d2",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "2f9ef78f-eb46-4d7f-8537-23fe7515a0c5"
+            "65072a33-98ae-452d-9d25-77f6cc921506"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 330,
+          "duration": 269,
           "root": false,
           "rootEmpty": false,
           "_timeout": 50000

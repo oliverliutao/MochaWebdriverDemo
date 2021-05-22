@@ -1,5 +1,5 @@
 module.exports = {
     searchInputSelectorId: 'input',
-    searchButtonSelectorName: 'checkPromoCodeBtn',
-    resultConfirmationId: 'resultStats'
+    resultConfirmationId: 'resultStats',
+    page1_checknow_btn_id: 'checkPromoCodeBtn'
 };

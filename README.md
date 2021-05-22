@@ -17,7 +17,7 @@ Folder Structure
     │   └── homePage.js             # Home page testing functionality
     │
     ├── test                        # Test suite
-    │   └── homePage.test.js        # Testing in home page
+    │   └── GIHome.test.js          # Testing home portal
     │
     ├── utils                       # Utility files for testing
     │   ├── fakeData.js             # Generating random keyword for searching
